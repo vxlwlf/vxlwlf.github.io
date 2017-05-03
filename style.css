@@ -1,121 +1,111 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1404.47">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
-</head>
-<body>
-<p class="p1">body {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>background-color: #FFF;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>margin: 0;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding: 0;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">.header {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/htmlcss1-img_canyon.jpeg");</p>
-<p class="p1"><span class="Apple-converted-space">  </span>background-position: center center;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>background-size: cover;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>height: 700px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>width: 100%;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">#header-text {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>margin: 0 auto;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>position: relative;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>top: 25%;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>width: 60%;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">h1 {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>color: #FFF;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-family: 'Quicksand', sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-size: 70px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-weight: 400;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>line-height: 60px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>margin: 0;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">h2 {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>color: #FFF;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-family: 'Open Sans', sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-size: 28px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-weight: 100;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">h3 {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>color: #FFF;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-family: 'Quicksand', sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-size: 28px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-weight: 400;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>line-height: 30px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>margin: 10px 0px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>text-align: center;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">h4 {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>color: #CCC;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-family: 'Quicksand', sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-size: 16px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-weight: 300;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">p {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>color: white;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-family: 'Open Sans', sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-size: 16px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-weight: 100;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>line-height: 24px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>margin: 0 auto;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>width: 60%;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">.partner {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>margin: 0 auto;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>border-bottom: 1px solid #eeeeee;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">.partner img {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>position: relative;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>top: 6px;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">.aa-logo {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding-left: 6px;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">.main {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/shards.png");</p>
-<p class="p1"><span class="Apple-converted-space">  </span>margin: 0;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding: 40px;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">.value-props {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>margin: 40px auto;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>width: 60%;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">.prop {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>border: 1px solid #FFF;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding: 40px 0px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>margin: 5px 0px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>text-align: center;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">.prop h2 {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-family: 'Quicksand', sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-size: 24px;</p>
-<p class="p1">}</p>
-</body>
-</html>
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 body \{\
+  background-color: #FFF;\
+  margin: 0;\
+  padding: 0;\
+\}\
+\
+.header \{\
+  background-image: url("http://www.mediafire.com/convkey/c6fc/3uyz8l21eqsktv7zg.jpg");\
+  background-position: center center;\
+  background-size: cover;\
+  height: 700px;\
+  width: 100%;\
+\}\
+\
+#header-text \{\
+  margin: 0 auto;\
+  position: relative;\
+  text-align: center;\
+  top: 25%;\
+  width: 60%;\
+\}\
+\
+h1 \{\
+  color: #FFF;\
+  font-family: 'Quicksand', sans-serif;\
+  font-size: 70px;\
+  font-weight: 400;\
+  line-height: 60px;\
+  margin: 0;\
+\}\
+\
+h2 \{\
+  color: #FFF;\
+  font-family: 'Open Sans', sans-serif;\
+  text-align: center;\
+  font-size: 28px;\
+  font-weight: 100;\
+\}\
+\
+h3 \{\
+  color: #FFF;\
+  font-family: 'Quicksand', sans-serif;\
+  font-size: 28px;\
+  font-weight: 400;\
+  line-height: 30px;\
+  margin: 10px 0px;\
+  text-align: center;\
+\}\
+\
+h4 \{\
+  color: #CCC;\
+  font-family: 'Quicksand', sans-serif;\
+  font-size: 16px;\
+  font-weight: 300;\
+\}\
+\
+p \{\
+  color: white;\
+  font-family: 'Open Sans', sans-serif;\
+  font-size: 16px;\
+  font-weight: 100;\
+  line-height: 24px;\
+  margin: 0 auto;\
+  text-align: center;\
+  width: 60%;\
+\}\
+\
+.partner \{\
+  padding: 20px;\
+  text-align: center;\
+  margin: 0 auto;\
+  border-bottom: 1px solid #eeeeee;\
+\}\
+\
+.partner img \{\
+  position: relative;\
+  top: 6px;\
+\}\
+\
+.aa-logo \{\
+  padding-left: 6px;\
+\}\
+\
+.main \{\
+  background: url("http://www.mediafire.com/convkey/13f6/f5ef53rzkn8tzm9zg.jpg?size_id=7");\
+  margin: 0;\
+  padding: 40px;\
+\}\
+\
+.value-props \{\
+  margin: 40px auto;\
+  width: 60%;\
+\}\
+\
+.prop \{\
+  border: 1px solid #FFF;\
+  padding: 40px 0px;\
+  margin: 5px 0px;\
+  text-align: center;\
+\}\
+\
+.prop h2 \{\
+  font-family: 'Quicksand', sans-serif;\
+  font-size: 24px;\
+\}I}
